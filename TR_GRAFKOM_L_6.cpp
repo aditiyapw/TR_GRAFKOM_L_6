@@ -677,7 +677,7 @@ void tampil(void)
     //tribun belakang
 
     glBegin(GL_POLYGON);
-    glColor3f(22/255.0f, 222/255.0f, 222/255.0f);//terang
+    glColor3f(222/255.0f, 222/255.0f, 222/255.0f);//terang
     glVertex3f(60,-29.8,-40);
     glVertex3f(-50,-29.8,-40);
     glVertex3f(-50,-29.8,-42);
@@ -693,7 +693,7 @@ void tampil(void)
     glEnd();
 
     glBegin(GL_POLYGON);
-    glColor3f(22/255.0f, 222/255.0f, 222/255.0f);//terang
+    glColor3f(222/255.0f, 222/255.0f, 222/255.0f);//terang
     glVertex3f(60,-28,-42);
     glVertex3f(-50,-28,-42);
     glVertex3f(-50,-28,-44);
@@ -917,7 +917,7 @@ void tampil(void)
     //tribun depan
 
     glBegin(GL_POLYGON);
-    glColor3f(22/255.0f, 222/255.0f, 222/255.0f);//terang
+    glColor3f(222/255.0f, 222/255.0f, 222/255.0f);//terang
     glVertex3f(60,-29.8,40);
     glVertex3f(-50,-29.8,40);
     glVertex3f(-50,-29.8,42);
@@ -933,7 +933,7 @@ void tampil(void)
     glEnd();
 
     glBegin(GL_POLYGON);
-    glColor3f(22/255.0f, 222/255.0f, 222/255.0f);//terang
+    glColor3f(222/255.0f, 222/255.0f, 222/255.0f);//terang
     glVertex3f(60,-28,42);
     glVertex3f(-50,-28,42);
     glVertex3f(-50,-28,44);
