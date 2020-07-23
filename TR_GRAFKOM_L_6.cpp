@@ -499,6 +499,64 @@ void tampil(void)
     glVertex3f(50,-25,-30);
     glVertex3f(50,-25,-29.8);
     glEnd();
+	
+    //bendera
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 197/255.0f, 0/255.0f);
+    glVertex3f(-50,-26,29.9);
+    glVertex3f(-49,-26,29.9);
+    glVertex3f(-49,-25.5,29.9);
+    glVertex3f(-50,-25.5,29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 51/255.0f, 0/255.0f);
+    glVertex3f(-50,-25.5,29.9);
+    glVertex3f(-49,-25.5,29.9);
+    glVertex3f(-49,-25,29.9);
+    glVertex3f(-50,-25,29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 197/255.0f, 0/255.0f);
+    glVertex3f(-50,-26,-29.9);
+    glVertex3f(-49,-26,-29.9);
+    glVertex3f(-49,-25.5,-29.9);
+    glVertex3f(-50,-25.5,-29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 51/255.0f, 0/255.0f);
+    glVertex3f(-50,-25.5,-29.9);
+    glVertex3f(-49,-25.5,-29.9);
+    glVertex3f(-49,-25,-29.9);
+    glVertex3f(-50,-25,-29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 197/255.0f, 0/255.0f);
+    glVertex3f(50,-26,29.9);
+    glVertex3f(51,-26,29.9);
+    glVertex3f(51,-25.5,29.9);
+    glVertex3f(50,-25.5,29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 51/255.0f, 0/255.0f);
+    glVertex3f(50,-25.5,29.9);
+    glVertex3f(51,-25.5,29.9);
+    glVertex3f(51,-25,29.9);
+    glVertex3f(50,-25,29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 197/255.0f, 0/255.0f);
+    glVertex3f(50,-26,-29.9);
+    glVertex3f(51,-26,-29.9);
+    glVertex3f(51,-25.5,-29.9);
+    glVertex3f(50,-25.5,-29.9);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(239/255.0f, 51/255.0f, 0/255.0f);
+    glVertex3f(50,-25.5,-29.9);
+    glVertex3f(51,-25.5,-29.9);
+    glVertex3f(51,-25,-29.9);
+    glVertex3f(50,-25,-29.9);
+    glEnd();
 
     //GAWANG
     //kiri
